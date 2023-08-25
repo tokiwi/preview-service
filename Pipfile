@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 uvicorn = "==0.23.2"
 starlette = "==0.31.0"
-preview-generator = {version = "==0.29", extras = ["all"]}
+preview-generator = {git = "https://github.com/tokiwi/preview-generator.git", ref = "develop", extras = ["all"]}
 python-multipart = "==0.0.6"
 aiofiles = "==23.2.1"
 

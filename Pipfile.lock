@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c1bd2e53141e7e1f0df32ed393061ffff63d38c88385faf9fd4500e782bf1c49"
+            "sha256": "a5f26b771d21b1b21648bf14edb729d6b6467379a77d9d1ce8b7e9c2da85ee6e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -245,11 +245,9 @@
             "extras": [
                 "all"
             ],
-            "hashes": [
-                "sha256:343978dace795b4b9da862d96f2e4a9c088e58a255c32a97ecd8729d4947377a"
-            ],
+            "git": "https://github.com/tokiwi/preview-generator.git",
             "markers": "python_version >= '3.7'",
-            "version": "==0.29"
+            "ref": "53a16e30ff56b8cb1cf1a96b574211d109220599"
         },
         "pycparser": {
             "hashes": [
